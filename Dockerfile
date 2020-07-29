@@ -51,7 +51,7 @@ Run cd /home/gpt2 && pip3 install -r requirements.txt
 # tensorflow and object detection api installation
 
 
-RUN python3 download_model.py 117M
+RUN cd /home/gpt2 &&  python3 download_model.py 117M
 # RUN python3 download_model.py 345M
 
 WORKDIR /home/gpt2
