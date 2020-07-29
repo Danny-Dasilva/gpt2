@@ -5,6 +5,9 @@ Only requirements are Nvidia docker
 
 `git clone https://github.com/Danny-Dasilva/gpt2.git`
 
+### path into repo
+
+`cd gpt2`
 ### build docker container
 `sudo docker build ./ -t gpt2`
 
