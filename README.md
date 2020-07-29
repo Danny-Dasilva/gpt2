@@ -58,6 +58,7 @@ below is for unconditional e.g. generated text
 
 ### Interactive samples
 these will ask for a model prompt
+
 `python3 interactive_conditional_samples.py --top_k 40 --model_name run1 --length 25`
 
 
